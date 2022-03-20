@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Card = require('../models/flashcard');
+const Card = require('../models/Flashcard');
 const verifyToken = require('../middleware/auth');
 var multer = require('multer');
 // var fs = require('fs');
