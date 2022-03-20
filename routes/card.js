@@ -1,10 +1,10 @@
 const express = require('express');
 const router = express.Router();
-const Card = require('../models/FlashCard');
+const Card = require('../models/flashcard');
 const verifyToken = require('../middleware/auth');
 var multer = require('multer');
-var fs = require('fs');
-var path = require('path');
+// var fs = require('fs');
+// var path = require('path');
 
 var storage = multer.diskStorage({
     destination: (req, file, cb) => {
