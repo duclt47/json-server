@@ -1,0 +1,39 @@
+POST http://localhost:5000/api/card
+Content-Type: application/json
+
+{
+    "vocabulary": "5 card",
+    "example": "fist card example",
+    "image": "fist card img",
+    "meaning": "aaaa"
+}
+
+###
+
+GET http://localhost:5000/api/card
+Content-Type: application/json
+
+
+###
+
+PUT http://localhost:5000/api/card/613c3ccd775efbe6e19b06d5
+Content-Type: application/json
+
+{
+    "vocabulary": "fist card edited",
+    "example": "fist card example",
+    "image": "fist card img",
+    "kind": "aaaa"
+}
+
+###
+DELETE  http://localhost:5000/api/card/613c3ccd775efbe6e19b06d5
+Content-Type: application/json
+
+{
+    "vocabulary": "fist card edited",
+    "example": "fist card example",
+    "image": "fist card img",
+    "kind": "aaaa"
+}
+
